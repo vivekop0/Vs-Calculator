@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VS Calculator</string>
+    <string name="_24_36">24*36</string>
+    <string name="c">C</string>
+</resources>

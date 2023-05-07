@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VSCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.VSCalculator" parent="Base.Theme.VSCalculator" />
+    <style name="operatorButton"  parent="commonButton">
+        <item name="android:textColor">#00BCD4</item>
+    </style>
+
+    <style name="digitButton" parent="commonButton">
+
+        <item name="android:textColor">#FFF9F9</item>
+    </style>
+
+ <style name="commonButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
+     <item name="android:layout_width">65dp</item>
+     <item name="backgroundTint">#CE202020</item>
+
+     <item name="cornerRadius">36dp</item>
+     <item name="android:textAlignment">center</item>
+     <item name="android:layout_height">65dp</item>
+     <item name="android:textSize">28sp</item>
+     <item name="android:layout_margin">12dp</item>
+ </style>
+</resources>
